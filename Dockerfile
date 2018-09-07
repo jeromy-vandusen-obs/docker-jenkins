@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts-alpine
 
-MAINTAINER Jeromy Van Dusen <jeromy.vandusen@gmail.com>
+MAINTAINER Jeromy Van Dusen <jvandusen@obsglobal.com>
 
 USER root
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
