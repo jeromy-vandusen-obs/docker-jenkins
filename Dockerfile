@@ -9,4 +9,6 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/reposit
     apk add openrc && \
     rc-update add docker boot && \
     apk del openrc && \
+    apk add py-pip && \
+    pip install docker-compose && \
     rm -rf /var/cache/apk/*
